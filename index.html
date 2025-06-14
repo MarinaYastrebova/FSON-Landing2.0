@@ -17,6 +17,13 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -111,7 +118,9 @@
       </section>
       <section class="taste" id="taste">
         <h2 class="taste-title">
-          It all adds up to one exceptional taste sensation 
+          It all adds up to one exceptional
+          <span class="taste-higlight">taste</span>
+          sensation 
         </h2>
         <p class="taste-subtitle">
           At Simply Chocolate, we believe that the secret to exceptional
@@ -120,7 +129,7 @@
           step of our process adds up to one exceptional taste sensation.
         </p>
         <ul class="taste-list">
-          <li class="taste-list-item">
+          <li class="taste-list-item list-item-milk">
             <img
               class="taste-list-item-image"
               src="./images/milk-white-chocolate-min.png"
@@ -128,7 +137,7 @@
               width="206"
               height="160"
             />
-            <p class="taste-list-item-text">Milk chocolate </p>
+            <p class="taste-list-item-text white-text">Milk chocolate </p>
           </li>
           <li class="taste-list-item">
             <img
@@ -140,7 +149,7 @@
             />
             <p class="taste-list-item-text">Milk</p>
           </li>
-          <li class="taste-list-item">
+          <li class="taste-list-item list-item-nuts">
             <img
               class="taste-list-item-image"
               src="./images/nuts.png"
@@ -148,7 +157,7 @@
               width="206"
               height="160"
             />
-            <p class="taste-list-item-text">Nuts</p>
+            <p class="taste-list-item-text white-text">Nuts</p>
           </li>
           <li class="taste-list-item">
             <img
@@ -163,7 +172,9 @@
         </ul>
       </section>
       <section class="recipe" id="how-its-made">
-        <h2 class="recipe-title">How it’s made?</h2>
+        <h2 class="recipe-title">
+          How it’s <span class="taste-higlight">made</span>?
+        </h2>
         <img
           class="recipe-image"
           src="./images/How it’s made (1).jpg"
@@ -207,7 +218,9 @@
         </ul>
       </section>
       <section class="review" id="review">
-        <h2 class="review-title">Chocolate is loved</h2>
+        <h2 class="review-title">
+          <span class="taste-higlight">Chocolate</span> is loved
+        </h2>
         <ul class="review-list">
           <li class="review-list-item">
             <img
@@ -254,12 +267,15 @@
       </section>
     </main>
     <footer class="bottom" id="bottom">
-      <h2 class="bottom-title">Chocolate a delicious cure for a bad day</h2>
+      <h2 class="bottom-title">
+        <span class="taste-higlight">Chocolate</span> a delicious cure for a bad
+        day
+      </h2>
       <section class="bottom-contacts">
         <p class="bottom-contacts-title">Contact us</p>
         <address class="bottom-contacts-address">
-          <ul class="bottom-contacts-list">
-            <li class="bottom-contacts-list-item">
+          <ul class=".bottom-contacts-address-list">
+            <li class="bottom-contacts-address-list">
               <a
                 class="bottom-contacts-list-item-number"
                 href="tel:+380(68)4439426"
@@ -301,7 +317,12 @@
           placeholder="Enter your email"
           class="bottom-subcribe-imail"
         />
-        <button type="submit" class="bottom-subcribe-submit">Subscribe</button>
+        <button
+          type="submit"
+          class="bottom-subcribe-submit hero-banner-button-primary"
+        >
+          Subscribe
+        </button>
       </form>
     </footer>
   </body>

@@ -1,12 +1,15 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
-ul ol {
+ul {
   list-style-type: none;
 }
 a {
   text-decoration: none;
   color: black;
+}
+.taste-higlight {
+  color: #fd9222;
 }
 .header-nav-logo-italic {
   font-style: italic;
@@ -28,17 +31,49 @@ a {
 }
 /* hero-banner */
 .hero-banner-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21429;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+button {
+  cursor: pointer;
 }
 .hero-banner-button-primary {
+  background: #fd9222;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+.hero-banner-button-primary:hover {
+  background-color: #fcf1e0;
+  color: #fd9222;
 }
 .hero-banner-button-secondary {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  background-color: #1e1823;
 }
+.hero-banner-button-secondary:hover {
+  color: #fd9222;
+  background-color: #fcf1e0;
+}
+
 .hero-banner-button-scroll {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.03em;
+  color: #fff;
 }
 .hero-banner-button-scroll-image {
 }
 /* benefits */
 .benefits {
+  background-color: #1e1823;
 }
 .benefits-list {
 }
@@ -47,15 +82,33 @@ a {
 .benefits-list-item-image {
 }
 .benefits-title {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
 }
 .benefits-list-item-text {
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
 }
 /* taste */
 .taste {
 }
 .taste-title {
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
 }
 .taste-subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #111;
 }
 .taste-list {
 }
@@ -64,26 +117,63 @@ a {
 .taste-list-item-image {
 }
 .taste-list-item-text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #000;
+}
+.white-text {
+  color: #fff;
+}
+.list-item-milk {
+  background-color: #fd9222;
+}
+.list-item-nuts {
+  background-color: #1e1823;
 }
 /* recipe */
 .recipe {
 }
 .recipe-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
 }
 .recipe-image {
 }
 .recipe-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33333;
+  color: #111;
 }
 .recipe-subtitle-list {
 }
 .recipe-subtitle-list-item {
 }
 .recipe-subtitle-list-item-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: #111;
 }
 /* review */
 .review {
 }
 .review-title {
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
 }
 .review-list {
 }
@@ -92,32 +182,67 @@ a {
 .review-list-item-image {
 }
 .review-list-item-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: center;
+  color: #111;
 }
 .review-list-item-subtitle {
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.7);
 }
 .review-button-secondary {
 }
 .review-button {
+  color: #111;
+  text-align: center;
 }
 /* bottom */
 .bottom {
+  background-color: #1e1823;
 }
 .bottom-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21429;
+  letter-spacing: -0.02em;
+  color: #fff;
 }
 .bottom-contacts {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 14px;
 }
+
 .bottom-contacts-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  color: #fff;
 }
 .bottom-contacts-address {
 }
-.bottom-contacts-list {
+.bottom-contacts-address-list {
 }
-.bottom-contacts-list-item {
+.bottom-contacts-address-list-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: #fff;
 }
-.bottom-contacts-list-item-number {
+.bottom-contacts-list-item-number,
+.bottom-contacts-list-item-email,
+.bottom-contacts-title {
+  color: #fff;
 }
-.bottom-contacts-list-item-email {
-}
+
 .bottom-nav {
 }
 .bottom-nav-list {
@@ -125,6 +250,11 @@ a {
 .bottom-nav-list-item {
 }
 .bottom-nav-list-item-anchor {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #fff;
 }
 .bottom-subcribe {
 }
