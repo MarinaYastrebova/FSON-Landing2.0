@@ -1,0 +1,134 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+ul ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.header-nav-logo-italic {
+  font-style: italic;
+}
+.header-nav-logo {
+  font-family: "Montserrat-Bolt", Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 20px;
+  letter-spacing: -0.03em;
+}
+.hero-banner {
+  background-image: url(/images/hero\ baner.jpg);
+  width: 1136px;
+  height: 600px;
+  background-size: contain;
+  border-radius: 2%;
+}
+/* hero-banner */
+.hero-banner-title {
+}
+.hero-banner-button-primary {
+}
+.hero-banner-button-secondary {
+}
+.hero-banner-button-scroll {
+}
+.hero-banner-button-scroll-image {
+}
+/* benefits */
+.benefits {
+}
+.benefits-list {
+}
+.benefits-list-item {
+}
+.benefits-list-item-image {
+}
+.benefits-title {
+}
+.benefits-list-item-text {
+}
+/* taste */
+.taste {
+}
+.taste-title {
+}
+.taste-subtitle {
+}
+.taste-list {
+}
+.taste-list-item {
+}
+.taste-list-item-image {
+}
+.taste-list-item-text {
+}
+/* recipe */
+.recipe {
+}
+.recipe-title {
+}
+.recipe-image {
+}
+.recipe-subtitle {
+}
+.recipe-subtitle-list {
+}
+.recipe-subtitle-list-item {
+}
+.recipe-subtitle-list-item-text {
+}
+/* review */
+.review {
+}
+.review-title {
+}
+.review-list {
+}
+.review-list-item {
+}
+.review-list-item-image {
+}
+.review-list-item-title {
+}
+.review-list-item-subtitle {
+}
+.review-button-secondary {
+}
+.review-button {
+}
+/* bottom */
+.bottom {
+}
+.bottom-title {
+}
+.bottom-contacts {
+}
+.bottom-contacts-title {
+}
+.bottom-contacts-address {
+}
+.bottom-contacts-list {
+}
+.bottom-contacts-list-item {
+}
+.bottom-contacts-list-item-number {
+}
+.bottom-contacts-list-item-email {
+}
+.bottom-nav {
+}
+.bottom-nav-list {
+}
+.bottom-nav-list-item {
+}
+.bottom-nav-list-item-anchor {
+}
+.bottom-subcribe {
+}
+.bottom-subcribe-imail {
+}
+.bottom-subcribe-submit {
+}
